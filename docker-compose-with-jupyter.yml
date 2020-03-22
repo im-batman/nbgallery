@@ -2,7 +2,7 @@ version: "3"
 
 services:
   jupyter:
-    image: nbgallery/jupyter-alpine
+    image: bojankles/raspi-base-notebook
     ports:
       - "80:80"
     environment:
