@@ -22,7 +22,7 @@ services:
       retries: 10
 
   solr:
-    image: armhf/solr
+    image: armhf/solr:5.5
     ports:
       - "8983:8983"
     volumes:
