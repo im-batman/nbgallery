@@ -44,7 +44,7 @@ services:
   ########################################
   
   nbgallery:
-    image: nbgallery/nbgallery
+    image: bojankles/raspi-nbgallery
     ports:
       - "3000:3000"
     volumes:
